@@ -1,27 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../exercicios/ex005/Limav-Flat-Gradient-Social-Github.32.png" type="image/x-icon">
-    <title>Card-Pessoal</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <h1>Minhas redes sociais</h1>
-    <h2>Quem sou eu?</h2>
-    <img src="imagens/WhatsApp Image 2024-10-23 at 10.27.49.jpeg" alt="Minha imagem" width="200" style="margin: 10px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    display: block"
-    >
-    <p>Hi 👋! My name is <strong>Jhonata</strong> and I'm a Computer Science student at the Federal University of Campina Grande(UFCG), from Brazil</p>
+    <nav class="navbar">
+        <h1>Jhonata.</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#port">Portifólio</a></li>
+        </ul>
+        <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+    </nav>
 
-    <h1>Como falar comigo?</h1>
-    <ul>
-        <li><p><img src="imagens/icone-github.png" alt="Gitbub"> <a href="https://github.com/Jhonata02" target="_blank">/jhonata02 </a>Meu perfil no Gitbub </p></li>
-        <li><p><img src="imagens/icone-linkedin.png" alt="Linkedin"> <a href="https://www.linkedin.com/in/jhonata-andrade-bb3513302/" target="_blank">/jhonata Andrade </a>Me adiciona la no Linkedin</p></li>
-        <li><p><img src="imagens/icone-instagram.png" alt="Instagram"> <a href="https://www.instagram.com/jhonataandrade02/" target="_blank">/jhonata02 </a>Me segue la no Instagram</p></li>
-    </ul>
+    <section id="home">
+        <div class="description animation-desc">
+            <h1>Hello I'm <br><span>Jhonata Andrade</span></h1>
+            <h2 class="animation-desc">I'm a <span>UI/UX Designer...</span></h2>
+            <p class="animation-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, fuga eaque qui, quibusdam laudantium asperiores cumque molestias dolorem, in tenetur consectetur nihil sunt! Nisi, totam hic libero a necessitatibus natus.</p>
+            <div class="font animation-desc">
+                <a href="https://www.instagram.com/jhonataandrade02/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jhonata-andrade-bb3513302/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Jhonata02"><i class="fa-brands fa-github"></i></a>
+                <a href="tel:+55 88 9 9990 8426"><i class="fas fa-phone"></i></a>
+            </div>
+            <div class="button animation-desc">
+                <a href="imagens/Curriculo.pdf"><button class="home_btn1">Download CV</button></a>
+                <button class="home_btn2">Hire Me</button>
+            </div>
+        </div>
+        <img src="imagens/DALL·E 2024-11-06 09.48.54 - Create an animated-style portrait of a young man wearing a formal suit and tie, with arms crossed, inspired by realistic cartoon aesthetics. He has sh.webp" alt="" class="animation-desc">
+    </section>
+    
 </body>
 </html>
