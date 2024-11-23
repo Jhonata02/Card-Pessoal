@@ -270,7 +270,7 @@ p.animation-desc{
     box-shadow: 0px 0px 20px #06c7d0;
 }
 
-.about_btn{
+/*.about_btn{
     padding: 15px 25px;
     font-size: 20px;
     background-image: linear-gradient(to right, rgb(196, 196, 218), #06c7d0);
@@ -281,6 +281,101 @@ p.animation-desc{
     cursor: pointer;
 
 }
+*/
+.contact_section{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+    gap: 10px;
+}
 
+.form input, textarea{
+    width: 550px;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(51, 51, 51);
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 
+.form .form_btn{
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: #06c7d0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #06c7d0;
+    margin-left: 200px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
 
+.form .form_btn:hover{
+    background-color: transparent;
+    border: 2px solid #06c7d0;
+    color: white;
+}
+.contact_desc{
+    color: white;
+    margin: 20px 0px;
+}
+
+.contact_desc h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.contact_desc h1 span{
+    color: #06c7d0;
+}
+
+.contact_desc .font i{
+    margin: 8px;
+    margin-top: 20px;
+    border: 2px solid #06c7d0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+.contact_desc .font i:hover{
+    background-color: #06c7d0;
+    box-shadow: 0px 0px 20px #06c7d0;
+    transform: translateY(-10px);
+}
+
+.contact_desc p{
+    margin-top: 20px;
+    font-size: large;
+}
+
+.contact_desc p i{
+    color: #06c7d0;
+    margin: 0px 10px;
+}
+
+.contact_desc button{
+    padding: 15px 60px;
+    font-size: 20px;
+    background-color: #06c7d0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #06c7d0;
+    margin-left: 0px;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    color: rgb(211, 211, 211);
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+*::selection{
+    background-color: #03838a;
+}
