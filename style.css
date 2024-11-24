@@ -381,7 +381,7 @@ p.animation-desc{
     #home{
         flex-direction: column-reverse;
         width: 100%;
-        margin-left: -30px;
+        margin-left: -20px;
     }
 
     .description h1{
@@ -443,9 +443,8 @@ p.animation-desc{
     }
 
     .form input, textarea, .form .form_btn{
-        width: 100%;
         margin-left: -140px;
-        padding: 10%;
+        max-width: 100%;
     }
 
 
