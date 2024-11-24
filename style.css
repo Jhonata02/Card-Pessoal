@@ -24,7 +24,7 @@ nav{
     font-size: larger;
     overflow: hidden;
     padding: 10px;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 a{
@@ -376,7 +376,7 @@ p.animation-desc{
     background-color: #03838a; 
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
     #home{
         flex-direction: column-reverse;
     }
