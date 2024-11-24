@@ -346,6 +346,7 @@ p.animation-desc{
 .contact_desc p{
     margin-top: 20px;
     font-size: large;
+    display: flex;
 }
 
 .contact_desc p i{
