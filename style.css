@@ -443,8 +443,9 @@ p.animation-desc{
     }
 
     .form input, textarea, .form .form_btn{
-        width: 70vh;
-        margin-left: -140px;;
+        width: 270%;
+        margin-left: -140px;
+        padding: 10%;
     }
 
 
