@@ -252,7 +252,7 @@ p.animation-desc{
 
 .about_section .skills a{
     text-align: center;
-    width: 118px;
+    width: 120px;
     background: transparent;
     border: 2px solid #06c7d0;
     border-radius: 10px;
@@ -425,7 +425,7 @@ p.animation-desc{
         
     }
     .about_section .skills{
-        margin: 20px -2px;
+        margin: 20px -10px;
     }
 
     .contact_section{
