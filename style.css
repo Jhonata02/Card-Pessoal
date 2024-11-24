@@ -174,10 +174,6 @@ li a:hover{
     color: black;
 }
 
-*::selection{
-    background-color: #03838a;
-}
-
 .navbar{
     opacity: 0;
     transform: translateX(60px);
@@ -378,4 +374,77 @@ p.animation-desc{
 
 *::selection{
     background-color: #03838a; 
+}
+
+@media screen and (max-width: 1020px) {
+    #home{
+        flex-direction: column-reverse;
+    }
+
+    .description h1{
+        font-size: 20px;
+        margin-left: -50px;
+    }
+    .description h1 span{
+        font-size: 30px;
+
+    }
+
+    .description h2{
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 900;
+        margin-left: -50px;
+    }
+
+    .font.animation-desc{
+        margin-left: -60px;
+        display: flex;
+        
+    }
+    .button.animation-desc{
+        display: flex;
+        margin-left: -50px;
+
+    } 
+
+    #home img{
+        width: 250px;
+        height: 250px;    
+        margin: -100px -50px 40px;
+    }   
+
+    .about_section{
+        flex-direction: column-reverse;
+        margin-left: -218px;
+        font-size: 15px;
+        word-wrap: break-word;
+        max-width: 350px;
+        
+    }
+    .about_section .skills{
+        margin: 20px -8px;
+    }
+
+    .contact_section{
+        flex-direction: column;
+    }
+
+    .contact_desc{
+        margin-left: -140px;
+    }
+
+    .font{
+        display: flex;
+    }
+
+    .form input, textarea, .form .form_btn{
+        width: 370px;
+        margin-left: -140px;
+    }
+
+
+    .navbar li, .contact_btn{
+        display: none;
+    }
 }
