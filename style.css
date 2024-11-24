@@ -424,6 +424,11 @@ p.animation-desc{
         word-wrap: break-word;
         
     }
+    
+    .about_desc{
+        margin: 33%;
+    }
+
     .about_section .skills a{
         width: 100%;
     }
